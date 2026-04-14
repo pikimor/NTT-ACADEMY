@@ -55,7 +55,7 @@ export default async function DashboardPage() {
           ) : (
             <>
               <Badge variant="gray">Estudiante regular</Badge>
-              <p className="text-xs text-gray-500 mt-2">Promedio >= 4.5 para ser elite</p>
+              <p className="text-xs text-gray-500 mt-2">Promedio &gt;= 4.5 para ser elite</p>
             </>
           )}
         </Card>

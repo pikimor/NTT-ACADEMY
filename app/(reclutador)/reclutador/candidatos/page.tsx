@@ -10,7 +10,7 @@ export default async function CandidatosPage() {
     <div>
       <h1 className="text-2xl font-bold text-gray-900 mb-2">Candidatos Elite</h1>
       <p className="text-gray-500 mb-6">
-        Estudiantes con promedio >= 4.5 — listos para ser contactados.
+        Estudiantes con promedio &gt;= 4.5 — listos para ser contactados.
       </p>
 
       {candidatos.length === 0 ? (
